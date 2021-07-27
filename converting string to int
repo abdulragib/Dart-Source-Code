@@ -1,0 +1,11 @@
+import 'dart:io';
+
+void main()
+{
+  print("Enter a number : ");
+  String? a=stdin.readLineSync();
+  if(a!=null) {
+    int no = int.parse(a);
+    print(no);
+  }
+}
